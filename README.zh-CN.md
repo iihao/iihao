@@ -83,17 +83,17 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/iihao/devcheck/main/metrics/badges/iihao-overview-dark.svg">
-  <img alt="GitHub 数据" src="https://raw.githubusercontent.com/iihao/devcheck/main/metrics/badges/iihao-overview.svg" width="840">
+  <source media="(prefers-color-scheme: dark)" srcset="metrics/iihao-overview-dark.svg">
+  <img alt="GitHub 数据" src="metrics/iihao-overview.svg" width="840">
 </picture>
 
 <br><br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/iihao/devcheck/main/metrics/badges/iihao-activity-dark.svg">
-  <img alt="近一年提交" src="https://raw.githubusercontent.com/iihao/devcheck/main/metrics/badges/iihao-activity.svg" width="840">
+  <source media="(prefers-color-scheme: dark)" srcset="metrics/iihao-activity-dark.svg">
+  <img alt="近一年提交" src="metrics/iihao-activity.svg" width="840">
 </picture>
 
 </div>
 
-<sub>这两张图不是 github-readme-stats 生成的，而是 [devcheck 的 metrics workflow](https://github.com/iihao/devcheck/tree/main/metrics) 每天用 GitHub API 自己画的 SVG（`scripts/profile_card.py`）—— 那个公共实例经常 503，README 里的图会直接裂开。另外两个仓库的访客徽章也来自同一条流水线，每天 UTC 01:17（北京 09:17）更新一次。</sub>
+<sub>这两张卡片不是 github-readme-stats 生成的：[devcheck 的 metrics workflow](https://github.com/iihao/devcheck/tree/main/metrics) 每天用 GitHub API 自己画 SVG（`scripts/profile_card.py`），再把文件同步进本仓库的 `metrics/`。这样既不依赖那个经常 503 的公共实例，图片也走 github.com 而不是 raw.githubusercontent.com —— 后者在部分网络下不可达，图会裂开。每天 UTC 01:17（北京 09:17）更新一次。</sub>
