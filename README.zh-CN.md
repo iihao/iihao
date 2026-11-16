@@ -78,24 +78,22 @@
 
 </div>
 
-## GitHub 数据
+## 语言与提交
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=iihao&show_icons=true&hide_border=true&include_all_commits=true&theme=github_dark&locale=cn&card_width=400">
-  <img height="165" alt="GitHub 统计" src="https://github-readme-stats.vercel.app/api?username=iihao&show_icons=true&hide_border=true&include_all_commits=true&locale=cn&card_width=400">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=iihao&layout=compact&hide_border=true&langs_count=8&theme=github_dark&card_width=320">
-  <img height="165" alt="常用语言" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iihao&layout=compact&hide_border=true&langs_count=8&card_width=320">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/iihao/devcheck/main/metrics/badges/iihao-overview-dark.svg">
+  <img alt="GitHub 数据" src="https://raw.githubusercontent.com/iihao/devcheck/main/metrics/badges/iihao-overview.svg" width="840">
 </picture>
 
-<br>
+<br><br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=iihao&hide_border=true&theme=github-dark">
-  <img alt="连续贡献" src="https://streak-stats.demolab.com?user=iihao&hide_border=true">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/iihao/devcheck/main/metrics/badges/iihao-activity-dark.svg">
+  <img alt="近一年提交" src="https://raw.githubusercontent.com/iihao/devcheck/main/metrics/badges/iihao-activity.svg" width="840">
 </picture>
 
 </div>
+
+<sub>这两张图不是 github-readme-stats 生成的，而是 [devcheck 的 metrics workflow](https://github.com/iihao/devcheck/tree/main/metrics) 每天用 GitHub API 自己画的 SVG（`scripts/profile_card.py`）—— 那个公共实例经常 503，README 里的图会直接裂开。另外两个仓库的访客徽章也来自同一条流水线，每天 UTC 01:17（北京 09:17）更新一次。</sub>
